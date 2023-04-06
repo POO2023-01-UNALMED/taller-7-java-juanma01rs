@@ -16,7 +16,7 @@ public class Alfabeto extends Pictograma {
 		return cL;
 	}
 	
-	String interpretacion() {
+	public String interpretacion() {
 		return interpretacion;
 	}
 	
