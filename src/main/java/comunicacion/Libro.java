@@ -25,10 +25,10 @@ public class Libro extends Escrito {
 	}
 	
 	public String toString() {
-		String atributos = this.getOrigen() + "\n";
-		atributos += this.getTitulo() + "\n";
-		atributos += this.getAutor() + "\n";
-		atributos += this.getPaginas() + "\n";
+		String atributos = super.getOrigen() + "\n";
+		atributos += super.getTitulo() + "\n";
+		atributos += super.getAutor() + "\n";
+		atributos += super.getPaginas() + "\n";
 		atributos += this.co_autor + "\n";
 		atributos += this.editorial + "\n";
 		atributos += this.edicion;

@@ -27,12 +27,12 @@ public class Tesis extends Escrito {
 	}
 	
 	public String toString() {
-		int cantidadArgumentos = argumentos.size();
-		String atributos = this.getOrigen() + "\n";
-		atributos += this.getTitulo() + "\n";
-		atributos += this.getAutor() + "\n";
-		atributos += this.getPaginas() + "\n";
-		atributos += this.idea + "\n";
+		int cantidadArgumentos = Tesis.argumentos.length;
+		String atributos = super.getOrigen() + "\n";
+		atributos += super.getTitulo() + "\n";
+		atributos += super.getAutor() + "\n";
+		atributos += super.getPaginas() + "\n";
+		atributos += super.idea + "\n";
 		atributos += cantidadArgumentos + "\n";
 		atributos += this.conclusion + "\n";
 		atributos += this.referencias;
