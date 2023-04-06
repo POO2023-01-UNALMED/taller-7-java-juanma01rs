@@ -3,7 +3,7 @@ package comunicacion;
 public class Tesis extends Escrito {
 
 	private String idea;
-	private String argumentos[];
+	private static String argumentos[];
 	private String conclusion;
 	private String referencias;
 	private String interpretacion;
@@ -47,16 +47,12 @@ public class Tesis extends Escrito {
 		return idea;
 	}
 	
-	public void setArgumentos(String argumentos) {
-		this.argumentos = argumentos;		
+	public void setArgumentos(String[] argumentos) {
+		Tesis.argumentos = argumentos;		
 	}
 	
-	public String getArgumentos() {
-		String args = "";
-		for (int i = 0; i < argumentos.length; i++) {
-			args += argumentos[i] + " ";
-		}
-		return args;
+	public String[] getArgumentos() {
+		return argumentos;
 	}
 	
 	public void setConclusion(String conclusion) {
