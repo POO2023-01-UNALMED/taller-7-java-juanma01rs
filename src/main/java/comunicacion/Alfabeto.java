@@ -33,7 +33,7 @@ public class Alfabeto extends Pictograma {
 	}
 	
 	public String getLetras() {
-		return letras;
+		return letras[];
 	}
 	
 	public void setInterpretacion(String interpretacion) {

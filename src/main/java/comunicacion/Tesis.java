@@ -32,10 +32,10 @@ public class Tesis extends Escrito {
 		atributos += this.getTitulo() + "\n";
 		atributos += this.getAutor() + "\n";
 		atributos += this.getPaginas() + "\n";
-		atributos += idea + "\n";
+		atributos += this.idea + "\n";
 		atributos += cantidadArgumentos + "\n";
-		atributos += conclusion + "\n";
-		atributos += referencias;
+		atributos += this.conclusion + "\n";
+		atributos += this.referencias;
 		return atributos;
 	}
 	
@@ -52,7 +52,7 @@ public class Tesis extends Escrito {
 	}
 	
 	public String getArgumentos() {
-		return argumentos;
+		return argumentos[];
 	}
 	
 	public void setConclusion(String conclusion) {

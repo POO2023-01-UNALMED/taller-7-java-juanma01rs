@@ -29,9 +29,9 @@ public class Libro extends Escrito {
 		atributos += this.getTitulo() + "\n";
 		atributos += this.getAutor() + "\n";
 		atributos += this.getPaginas() + "\n";
-		atributos += co_autor + "\n";
-		atributos += editorial + "\n";
-		atributos += edicion;
+		atributos += this.co_autor + "\n";
+		atributos += this.editorial + "\n";
+		atributos += this.edicion;
 		return atributos;
 	}
 	
