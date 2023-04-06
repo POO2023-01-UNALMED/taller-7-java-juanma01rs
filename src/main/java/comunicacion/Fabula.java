@@ -20,7 +20,7 @@ public class Fabula extends Escrito {
 		return interpretacion;
 	}
 	
-	public static String toString() {
+	public String toString() {
 		String atributos = this.getOrigen() + "\n";
 		atributos += this.getTitulo() + "\n";
 		atributos += this.getAutor() + "\n";

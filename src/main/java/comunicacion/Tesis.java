@@ -26,7 +26,7 @@ public class Tesis extends Escrito {
 		return interpretacion;
 	}
 	
-	public static String toString() {
+	public String toString() {
 		int cantidadArgumentos = argumentos.size();
 		String atributos = this.getOrigen() + "\n";
 		atributos += this.getTitulo() + "\n";

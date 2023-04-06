@@ -20,7 +20,7 @@ public class Alfabeto extends Pictograma {
 		return interpretacion;
 	}
 	
-	public static String toString() {
+	public String toString() {
 		String abc = "";
 		for (char a = 'a' ; a <= 'z' ; a++) {
 			abc += a + ", ";
