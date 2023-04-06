@@ -11,7 +11,7 @@ public class Alfabeto extends Pictograma {
 		this.interpretacion = interpretacion;
 	}
 
-	public static int cantidadLetras() {
+	public int cantidadLetras() {
 		int cL = Alfabeto.letras.length;
 		return cL;
 	}
