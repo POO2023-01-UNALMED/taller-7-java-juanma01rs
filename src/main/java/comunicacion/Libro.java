@@ -55,6 +55,10 @@ public class Libro extends Escrito {
 		this.edicion = edicion;		
 	}
 	
+	public String getEdicion() {
+		return edicion;
+	}
+	
 	public String getInterpretacion() {
 		return interpretacion;
 	}
